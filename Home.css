@@ -1,0 +1,133 @@
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+}
+
+.main {
+  text-align: center;
+  margin: 20% auto;
+}
+
+.welcome-section {
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #04AA6D; /* Change heading color to a creative color */
+}
+
+p {
+  font-size: 1.2em;
+  color: #999; /* Update paragraph color */
+}
+
+.btn-signup, .btn-login {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #04AA6D; /* Change button background color */
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-signup:hover, .btn-login:hover {
+  background-color: #007E4E; /* Change button hover color */
+}
+
+@media (max-width: 768px) {
+  .topnav {
+      display: block;
+      text-align: center;
+  }
+  .topnav a {
+      float: none;
+  }
+}
+
+.Welcome-sign {
+  padding-left: 40%;
+  color: #04AA6D; /* Change color for Welcome-sign */
+}
+
+.btn-login {
+  margin-left: 40px;
+}
+
+.btn-signup {
+  margin-left: 40%;
+}
+
+.about-container {
+  background-color: #333;
+  padding: 40px;
+  border-radius: 25px;
+  margin: 50px auto;
+  max-width: 800px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.about-container h1 {
+  color: #04AA6D; /* Change heading color */
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  color: #999; /* Update paragraph color */
+  font-size: 18px;
+}
+
+.playlist-item {
+  display: inline-block;
+  margin: 10px;
+  padding: 50px;
+  background-color: #444; /* Change background color */
+  border: 1px solid #555; /* Update border color */
+  color: #fff; /* Update text color */
+  border-radius: 15px; /* Add some border-radius for a creative touch */
+}
+
+.playlist-item h3 {
+  margin: 5px 0;
+  color: #04AA6D; /* Change heading color */
+}
+
+.playlist-item img {
+  max-width: 200px;
+  height: auto;
+}
+
+.playlist {
+  margin: 0 auto; /* Center align the playlist */
+}
